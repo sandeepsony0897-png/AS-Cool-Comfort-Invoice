@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AS Cool Comfort Invoice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AS COOL COMFORT</h1>
+    <p>AC SERVICE & REPAIR</p>
+    <p>Contact: 8002368800</p>
+  </header>
+
+  <h2>PROFESSIONAL INVOICE</h2>
+
+  <label>Invoice Number</label>
+  <input id="invoice" placeholder="INV-001">
+
+  <label>Date</label>
+  <input id="date" type="date">
+
+  <h3>Customer Details</h3>
+  <input id="customer" placeholder="Customer Name">
+  <input id="phone" placeholder="Mobile Number">
+  <textarea id="address" placeholder="Customer Address"></textarea>
+
+  <h3>Service Details</h3>
+  <input id="service" placeholder="AC Service / Repair / Installation">
+  <input id="qty" type="number" placeholder="Quantity" value="1">
+  <input id="price" type="number" placeholder="Rate (₹)">
+  <button onclick="calculate()">Calculate Total</button>
+
+  <h3>Total Amount: ₹<span id="total">0</span></h3>
+
+  <button onclick="window.print()">Print / Save PDF</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
