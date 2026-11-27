@@ -1,0 +1,11 @@
+
+{
+  "name": "AS Cool Comfort Invoice Maker",
+  "short_name": "AS Invoice",
+  "description": "Professional Invoice Maker",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#102b50",
+  "orientation": "portrait"
+}
